@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clasificación del Software | Guía Visual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Clasificación del Software</h1>
+    <p>Guía visual por licencia, función y forma de operación</p>
+  </header>
+
+  <nav>
+    <button onclick="mostrar('licencia')">Por Licencia</button>
+    <button onclick="mostrar('funcion')">Por Función</button>
+    <button onclick="mostrar('operacion')">Por Operación</button>
+  </nav>
+
+  <main>
+    <!-- LICENCIA -->
+    <section id="licencia" class="contenido">
+      <h2>Clasificación por Licencia</h2>
+      <ul>
+        <li><strong>Software Libre:</strong> Permite usar, modificar y distribuir el programa.</li>
+        <li><strong>Software de Código Abierto:</strong> El código es accesible al público.</li>
+        <li><strong>Software Propietario:</strong> Tiene restricciones de uso y modificación.</li>
+        <li><strong>Freeware:</strong> Es gratuito, pero no modificable.</li>
+        <li><strong>Shareware:</strong> Versión de prueba por tiempo limitado.</li>
+      </ul>
+    </section>
+
+    <!-- FUNCIÓN -->
+    <section id="funcion" class="contenido oculto">
+      <h2>Clasificación por Función</h2>
+      <ul>
+        <li><strong>Software de Sistema:</strong> Controla el hardware (Windows, Linux).</li>
+        <li><strong>Software de Aplicación:</strong> Ayuda al usuario (Word, Excel).</li>
+        <li><strong>Software de Programación:</strong> Permite crear programas (Python, Java).</li>
+      </ul>
+    </section>
+
+    <!-- OPERACIÓN -->
+    <section id="operacion" class="contenido oculto">
+      <h2>Clasificación por Forma de Operación</h2>
+      <ul>
+        <li><strong>Software Local:</strong> Se instala en la computadora.</li>
+        <li><strong>Software en la Nube:</strong> Funciona por internet.</li>
+        <li><strong>Software Móvil:</strong> Diseñado para celulares y tablets.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto educativo · Clasificación del Software</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
